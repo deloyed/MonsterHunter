@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('CaviarDreams-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('CaviarDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('Cocogoose.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('LouisGeorgeCafe-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('LouisGeorgeCafe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('LouisGeorgeCafe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

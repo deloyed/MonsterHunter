@@ -1,0 +1,119 @@
+/*Normalize*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url(img/Monster-Hunter-Backgrounds2.jpg);
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(163, 116, 0);
+    line-height: 1.85rem;
+}
+
+h1 {
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Cocogoose';
+    font-weight: bold;
+    color: rgb(135, 96, 0);
+}
+
+p {
+    margin: 1rem auto;
+    text-align: justify;
+
+}
+
+.bg {
+    height: 250px;
+    width: 100%;
+    background-size: contain, cover;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px -46px;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'COCOGOOSE';
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    color: #f2d0a8;
+    background-color: rgba(114, 45, 11, 0.45);
+    text-shadow: 4px 4px 0px #722d0b;
+    overflow: hidden;
+}
+
+article {
+    background-color: rgba(255, 241, 206, 0.7);
+    border: 1px solid orange;
+}
+article.Contenido{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.galeria figure img {
+    width: 154px;
+    height: auto;
+}
+.galeria figure{
+    position: relative;
+    overflow: hidden;
+    opacity: 0;    
+    transition: opacity 1s ease-in;
+}
+.galeria figure.mostrar{
+    opacity: 1;    
+    transition: opacity 1s ease-in;
+}
+.galeria figure figcaption{
+    
+    font-size: inherit;
+    transition: font-size 0.3s ease-in;
+    transition: border-top 0.1s ease-in;
+}
+.galeria figure:hover figcaption{
+    border-top: 2px solid rgb(135, 96, 0);
+    font-size: 2rem;
+    color: rgb(135, 96, 0);
+}
+figcaption {
+    text-align: center;
+}
+figcaption span.subtitulo{
+    font-family: 'Caviar Dreams';
+    font-weight: normal;
+}
+.galeria figure img{
+    transform: scale(1);
+    transition: transform 0.2s ease;
+}
+.galeria figure img:hover{
+    transform: scale(1.1);
+}
+footer{
+    color: aliceblue;
+    display: flex;    
+    height: 60px;
+    background-color: rgba(114, 45, 11, 1);
+}
+footer p:hover{
+    color: rgb(163, 116, 0);   
+}
